@@ -1,0 +1,139 @@
+element.style {
+    background-position: 50% 129px;
+}
+
+#about {
+    padding-top: 200px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.parallax-section {
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+.meta-subject {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  padding-left: 220px;
+}
+
+
+#about {
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+  
+  .about-info h3 {
+    font-size: 14px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  #home {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+     align-items: center;
+    height: 100vh;
+    position: relative;
+    padding-top: 10em;
+  }
+  
+  #home h1 {
+    color: #ffffff;
+    font-size: 6em;
+    line-height: 1.2em;
+  }
+  
+  #home p {
+    color: rgba(250,250,250,0.7);
+  }
+  
+  #home .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+  }
+  
+  #home video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+  }
+
+  .project-item {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .project-overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+  
+  .project-info {
+    padding: 12em 0;
+  }
+  
+  .project-item img {
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  }
+  .project-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .project-overlay h1 {
+    color: #ffffff;
+    margin: 0;
+  }
+  .project-overlay h3 {
+    color: #d9d9d9;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    margin-top: 0;
+  }
+  
+  .project-item:hover .project-overlay {
+    opacity: 1;
+  }
+  
+  .col-sm-6{
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+  }
